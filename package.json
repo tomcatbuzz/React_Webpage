@@ -1,0 +1,32 @@
+{
+  "name": "react_webpage-master",
+  "version": "1.0.0",
+  "description": "React webpage",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "start": "node ./server/server.js",
+    "build": "webpack -p",
+    "react-dev": "webpack -d --watch",
+    "server-dev": "nodemon server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anthony Buzzelli",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "material-ui": "^1.0.0-beta.36",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11"
+  }
+}
